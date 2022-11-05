@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap");
+
+#header {
+  max-width: 1400px;
+  min-height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.header__nav {
+  display: flex;
+  align-items: center;
+
+  gap: 50px;
+}
+
+.telephone {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.telephone > a {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 100%;
+  /* identical to box height, or 18px */
+
+  color: #4b5258;
+}
+
+.telephone > span {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 100%;
+  /* identical to box height, or 14px */
+
+  color: #959a9d;
+}
+
+.social > h3 {
+  display: flex;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 140%;
+  /* or 17px */
+
+  text-align: right;
+
+  color: #4b5258;
+  gap: 15px;
+}
+
+.social > h3 > div {
+  display: flex;
+  gap: 10px;
+}
+
+.link__btn {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 100%;
+  /* identical to box height, or 12px */
+
+  text-align: right;
+
+  color: #4b5258;
+
+  border: 1px solid #43aaff;
+  border-radius: 100px;
+  padding: 21px 26px;
+  cursor: pointer;
+}
+
+.link__btn:hover {
+  background: #43aaff;
+  color: #fff;
+  transition: 0.5s;
+}

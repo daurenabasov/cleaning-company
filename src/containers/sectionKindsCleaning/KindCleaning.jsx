@@ -1,6 +1,6 @@
 import React from 'react';
 
-const KindCleaing = () => {
+const KindCleaning = () => {
     return (
         <div>
             
@@ -8,4 +8,4 @@ const KindCleaing = () => {
     );
 };
 
-export default KindCleaing;
+export default KindCleaning;

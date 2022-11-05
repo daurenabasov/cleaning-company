@@ -1,0 +1,165 @@
+import React from "react";
+import s from "./Sidebar.module.css";
+import { Link } from "react-scroll";
+import cl from "classnames";
+import { motion } from "framer-motion";
+
+const Sidebar = ({ show }) => {
+  return (
+    <motion.div
+      initial={{ x: "-100%", opacity: 0 }}
+      animate={{ x: 0, opacity: 1 }}
+      transition={{ delay: 0.2, duration: 2 }}
+      className={show ? cl(s.sidenav, s.active) : s.sidenav}
+    >
+      <ul>
+        <li>
+          <Link
+            className="nav-link"
+            to="/"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+          >
+            Article
+          </Link>
+        </li>
+        <li>
+          <Link
+            className="nav-link"
+            to="/"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+          >
+            Article
+          </Link>
+        </li>
+        <li>
+          <Link
+            className="nav-link"
+            to="/"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+          >
+            Article
+          </Link>
+        </li>
+        <li>
+          <Link
+            className="nav-link"
+            to="/"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+          >
+            Article
+          </Link>
+        </li>
+        <li>
+          <Link
+            className="nav-link"
+            to="/"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+          >
+            Article
+          </Link>
+        </li>
+        <li>
+          <Link
+            className="nav-link"
+            to="/"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+          >
+            Article
+          </Link>
+        </li>
+        <li>
+          <Link
+            className="nav-link"
+            to="/"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+          >
+            Article
+          </Link>
+        </li>
+        <li>
+          <Link
+            className="nav-link"
+            to="/"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+          >
+            Article
+          </Link>
+        </li>
+        <li>
+          <Link
+            className="nav-link"
+            to="/"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+          >
+            Article
+          </Link>
+        </li>
+        <li>
+          <Link
+            className="nav-link"
+            to="/"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+          >
+            Article
+          </Link>
+        </li>
+        <li>
+          <Link
+            className="nav-link"
+            to="/"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+          >
+            Article
+          </Link>
+        </li>
+        <li>
+          <Link
+            className="nav-link"
+            to="/"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+          >
+            Article
+          </Link>
+        </li>
+      </ul>
+    </motion.div>
+  );
+};
+
+export default Sidebar;

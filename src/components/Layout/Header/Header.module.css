@@ -8,6 +8,9 @@
   align-items: center;
   margin: 0 auto;
 }
+.burger {
+  display: none;
+}
 
 .header__nav {
   display: flex;
@@ -86,4 +89,26 @@
   background: #43aaff;
   color: #fff;
   transition: 0.5s;
+}
+
+@media screen and (max-width: 870px) {
+  #header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .header__logo {
+    margin-left: 50px;
+  }
+
+  .burger {
+    margin-right: 50px;
+
+    display: block;
+  }
+
+  .header__nav {
+    display: none;
+  }
 }

@@ -1,12 +1,17 @@
-import React from "react";
+import React, { useState } from "react";
 import s from "./Header.module.css";
 import Logo from "../../../Assets/header-logo.png";
 import Dot from "../../../Assets/header-dot.png";
 import Telegram from "../../../Assets/telegram.png";
 import WhatsApp from "../../../Assets/whatsApp.png";
 import { Link } from "react-scroll";
+import Sidebar from "../../UI/Sidebar/Sidebar";
+import { GiHamburgerMenu } from "react-icons/gi";
+import { BiMenuAltRight } from "react-icons/bi";
 
 const Header = () => {
+  const [showNav, setShowNav] = useState(false);
+
   return (
     <>
       <header id={s.header}>
@@ -44,7 +49,11 @@ const Header = () => {
             Заказать консультацию
           </Link>
         </nav>
+        <div className={s.burger} onClick={() => setShowNav(!showNav)}>
+          <BiMenuAltRight size={40} />
+        </div>
       </header>
+      {showNav && <Sidebar show={showNav} />}
     </>
   );
 };

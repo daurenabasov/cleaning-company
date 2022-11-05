@@ -1,0 +1,38 @@
+
+
+
+
+.sidenav {
+  width: 240px;
+  background: #43aaff;
+  position: absolute;
+  height: 95vh;
+  left: -100%;
+  padding: 0 30px;
+  border-radius: 1%;
+
+}
+
+.sidenav.active {
+  left: 0;
+  transition-duration: all 1s ease-in-out;
+}
+
+.sidenav > ul > li > a {
+  color: #eaecef;
+  font-size: 16px;
+  display: block;
+  padding: 10px;
+}
+
+.sidenav > ul > li > a:hover,
+.sidenav > ul > li > a.active {
+  background: #172b4d;
+}
+
+
+@media screen and (min-width: 879px) {
+    .sidenav {
+      display: none;
+    }
+}

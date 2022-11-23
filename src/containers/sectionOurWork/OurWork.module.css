@@ -1,0 +1,42 @@
+#ourWork {
+  margin: 105px auto;
+}
+
+.titles > h1 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 150%;
+  /* or 45px */
+
+  text-align: center;
+
+  color: #4b5258;
+}
+
+.titles > h3 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 150%;
+  /* or 33px */
+
+  text-align: center;
+
+  color: #ffffff;
+
+  background: #ffc24d;
+  border-radius: 100px;
+  padding: 15px 47px;
+  max-width: 670px;
+  margin: 0 auto;
+}
+.img__container {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}

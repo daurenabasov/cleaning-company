@@ -1,0 +1,73 @@
+.container {
+  max-width: 55%;
+  margin: 0 auto;
+  background-color: #43aaff;
+  min-height: 278px;
+  border-radius: 30px;
+  background-image: url("../../Assets/contact-background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container > h1 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 140%;
+  /* or 28px */
+
+  color: #ffffff;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.container > .btns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 50px;
+}
+
+
+.container > .btns > input[type=text] {
+  padding-left: 30px;
+}
+
+
+.container > .btns > .left__btn {
+  background: #ffffff;
+  border-radius: 100px;
+  width: 275px;
+  height: 70px;
+  border: none;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 100%;
+  /* identical to box height, or 14px */
+
+  color: #959a9d;
+}
+
+.container > .btns > .right__btn {
+  background: #ffc24d;
+  box-shadow: inset 0px 4px 10px rgba(255, 255, 255, 0.3);
+  border-radius: 100px;
+  width: 275px;
+  height: 70px;
+  border: none;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 150%;
+  /* identical to box height, or 20px */
+
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}

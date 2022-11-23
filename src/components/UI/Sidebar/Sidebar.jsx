@@ -7,9 +7,9 @@ import { motion } from "framer-motion";
 const Sidebar = ({ show }) => {
   return (
     <motion.div
-      initial={{ x: "-100%", opacity: 0 }}
-      animate={{ x: 0, opacity: 1 }}
-      transition={{ delay: 0.2, duration: 2 }}
+      initial={{ x: "-100%" }}
+      animate={{ x: 0 }}
+      transition={{ delay: 0.2, duration: 0.5 }}
       className={show ? cl(s.sidenav, s.active) : s.sidenav}
     >
       <ul>

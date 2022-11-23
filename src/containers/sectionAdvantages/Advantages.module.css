@@ -1,0 +1,240 @@
+.titles {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  margin-top: 250px;
+}
+.titles > button {
+  background: #ffc24d;
+  border-radius: 30px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 150%;
+  /* identical to box height, or 33px */
+
+  color: #ffffff;
+  width: 230px;
+  height: 55px;
+  border: none;
+}
+
+.titles > span {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 150%;
+  /* or 45px */
+
+  text-align: center;
+
+  color: #4b5258;
+  margin-top: 20px;
+}
+
+.titles p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 150%;
+  /* or 33px */
+
+  text-align: center;
+
+  color: #959a9d;
+}
+
+.img__container {
+  display: grid;
+  margin: 0 auto;
+  grid-template-columns: 328px 328px 328px;
+  grid-template-areas:
+    "item1 item2 item3"
+    "item4 item4 item5";
+  place-content: center;
+  grid-gap: 70px;
+}
+
+@media screen and (max-width: 1100px) {
+  .img__container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .img__container > div {
+    max-width: 700px;
+    margin: 0 auto;
+  }
+
+  .img__container > article {
+    max-width: 335px;
+    margin: 0 auto;
+  }
+
+  .four__img > div {
+    /* max-width: 700px; */
+    display: none;
+  }
+  /* .four__img > div {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .four__img > div > h1 {
+    margin-bottom: 40px;
+  } */
+  article {
+    display: none;
+  }
+}
+
+.first__img {
+  background-image: url("../../Assets/first-advantagesImg.png");
+  background-repeat: no-repeat;
+  border-radius: 30px;
+  box-shadow: 2px 3px 5px #4b5258;
+}
+
+.second__img {
+  background-image: url("../../Assets/second-advantagesImg.png");
+  background-repeat: no-repeat;
+  border-radius: 30px;
+  box-shadow: 2px 3px 5px #4b5258;
+}
+
+.third__img {
+  background-image: url("../../Assets/third-advantagesImg.png");
+  background-repeat: no-repeat;
+  border-radius: 30px;
+  box-shadow: 2px 3px 5px #4b5258;
+}
+
+.four__img {
+  background-image: url("../../Assets/four-advantagesImg.png");
+  background-repeat: no-repeat;
+  border-radius: 30px;
+  box-shadow: 2px 3px 5px #4b5258;
+  display: flex;
+  width: 678px;
+}
+
+.four__img h1 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 140%;
+  /* or 25px */
+
+  color: #4b5258;
+  margin-left: 229px;
+  padding-top: 44px;
+}
+
+.four__img p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 150%;
+  /* or 18px */
+
+  color: #4b5258;
+  margin-left: 229px;
+}
+
+.img__container > div > h1 {
+  margin-top: 12rem;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 140%;
+  /* or 25px */
+
+  color: #4b5258;
+  padding-left: 55px;
+}
+
+.img__container > div > p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 150%;
+  /* or 18px */
+
+  color: #4b5258;
+  /* padding-left: 55px; */
+  display: grid;
+  padding: 14px 31px 30px 25px;
+}
+
+.img__container > article {
+  width: 328px;
+  height: 180px;
+  background: #43aaff;
+  border-radius: 30px;
+  padding: 40px 37px 37px 20px;
+  margin-left: 22rem;
+}
+
+.img__container > article > h1 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 13px;
+  line-height: 140%;
+  /* or 18px */
+
+  color: #ffffff;
+}
+
+.img__container > article > p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 150%;
+  /* or 16px */
+
+  color: #ffffff;
+}
+.img__container > article > a {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 150%;
+  /* or 16px */
+
+  text-decoration-line: underline;
+
+  color: #ffffff;
+}
+
+.first__img {
+  grid-area: "item1";
+}
+
+.second__img {
+  grid-area: "item2";
+}
+
+.third__img {
+  grid-area: "item3";
+}
+.four__img {
+  grid-area: "item4";
+}
+
+article {
+  grid-area: "item5";
+}

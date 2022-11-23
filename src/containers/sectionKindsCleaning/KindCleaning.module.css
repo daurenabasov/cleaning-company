@@ -1,0 +1,68 @@
+.titles {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 200px;
+}
+
+.titles > h1 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 150%;
+  /* identical to box height, or 45px */
+
+  text-align: center;
+
+  color: #4b5258;
+}
+
+.titles > h1 > span {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 150%;
+  /* identical to box height, or 45px */
+
+  text-align: center;
+  color: #43aaff;
+}
+
+.titles > p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 150%;
+  /* or 33px */
+
+  text-align: center;
+
+  color: #959a9d;
+}
+
+.container {
+  max-width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-top: 70px;
+}
+
+@media screen and (max-width: 1500px) {
+  .container {
+    max-width: 90%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .container {
+    max-width: 100%;
+  }
+}

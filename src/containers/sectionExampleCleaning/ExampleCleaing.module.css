@@ -1,0 +1,93 @@
+.titles {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.titles > h1 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 150%;
+  /* identical to box height, or 45px */
+
+  text-align: center;
+
+  color: #4b5258;
+}
+
+.titles > p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 150%;
+  /* or 33px */
+
+  text-align: center;
+
+  color: #959a9d;
+}
+
+.titles > .nav__container {
+  background: #ffffff;
+  box-shadow: 0px 0px 20px rgba(29, 31, 33, 0.12);
+  border-radius: 100px;
+  width: 621px;
+  height: 70px;
+  /* padding-left: 1rem; */
+  /* padding-right: 1rem; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+}
+
+.titles > .nav__container button {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 100%;
+  /* identical to box height, or 14px */
+
+  text-align: right;
+
+  color: #4b5258;
+  border: 0;
+  background: #ffffff;
+  cursor: pointer;
+}
+
+.titles > .nav__container button:hover {
+  background: #ffc24d;
+  border-radius: 100px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 100%;
+  /* identical to box height, or 14px */
+  height: 70px;
+  text-align: center;
+
+  color: #ffffff;
+}
+.titles > .nav__container button:active {
+  background: #ffc24d;
+  border-radius: 100px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 100%;
+  /* identical to box height, or 14px */
+  height: 70px;
+  text-align: center;
+
+  color: #ffffff;
+}

@@ -1,6 +1,7 @@
 import React from "react";
 import s from "./Hero.module.css";
 import { motion } from "framer-motion";
+import heroImg from "../../Assets/hero2.png";
 
 const Hero = () => {
   return (
@@ -41,6 +42,9 @@ const Hero = () => {
             <button className={s.bottom__btn}>Выбрать вид уборки</button>
           </motion.div>
         </div>
+        {/* <div className={s.hero__img}>
+          <img src={heroImg} alt="" />
+        </div> */}
       </section>
     </>
   );

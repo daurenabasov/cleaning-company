@@ -8585,6 +8585,11 @@ schema-utils@^4.0.0:
     ajv-formats "^2.1.1"
     ajv-keywords "^5.0.0"
 
+scroll-background-2@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/scroll-background-2/-/scroll-background-2-1.0.2.tgz#2a7a550ae6de01dd8843da85af88151c906eecf3"
+  integrity sha512-JQwhhHJ83PD2maFACNAXT6c7cIWZork17nAUU/V7jwCxEn3QD+h3OgYGO/florpAqobczHOKSxz3f1aFpe5MDg==
+
 scroll-into-view-if-needed@^2.2.25:
   version "2.2.29"
   resolved "https://registry.npmjs.org/scroll-into-view-if-needed/-/scroll-into-view-if-needed-2.2.29.tgz"

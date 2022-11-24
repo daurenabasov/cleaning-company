@@ -12,31 +12,34 @@ import ExampleCleaning from "../sectionExampleCleaning/ExampleCleaing";
 import Inventory from "../sectionInventory/Inventory";
 import Certificates from "../sectionCertificates/Certificates";
 import { motion } from "framer-motion";
+import { AnimatedBg, Transition } from "scroll-background-2";
 
 function App() {
   return (
-    <div className={s.App}>
-      <Hero />
-      <Equipment />
-      <Video />
-      <Advantages />
-      <OurWork />
+    <AnimatedBg>
+      <div className={s.App} style={{ height: "100%" }}>
+        <Hero />
+        <Equipment />
+        <Video />
+        <Advantages />
+        <OurWork />
 
-      {/* <motion.div
+        {/* <motion.div
         className="scrollAnimate"
         initial={{ background: "#fff" }}
         whileInView={{ background: "red" }}
         transition={{ delay: 0.2, duration: 0.3 }}
       > */}
-      <OurContacts />
-      {/* </motion.div> */}
-      <KindCleaning />
-      <AdditionCleaning />
-      <ExampleCleaning />
-      <Social />
-      <Inventory />
-      <Certificates />
-    </div>
+        <OurContacts />
+        {/* </motion.div> */}
+        <KindCleaning />
+        <AdditionCleaning />
+        {/* <ExampleCleaning /> */}
+        <Social />
+        <Inventory />
+        <Certificates />
+      </div>
+    </AnimatedBg>
   );
 }
 
